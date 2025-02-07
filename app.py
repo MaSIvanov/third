@@ -8,7 +8,7 @@ app = Flask(__name__)
 def get_date():
     dt = datetime.now()
     dt_format = dt.strftime("%d/%m/%y")
-    return "Hello, Maksim!"
+    return "Hello, Stanislav!"
 
 
 if __name__ == "__main__":
